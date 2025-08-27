@@ -46,3 +46,13 @@ Use the `calculate-hash` command to compute the hash of a file.
 **Basic Syntax:**
 ```bash
 python hasher.py calculate-hash --file <path-to-file> [--algorithm <algorithm-name>] [--quiet]
+```
+
+##Example
+```bash
+# Get SHA256 hash of a document
+python hasher.py calculate-hash -f document.pdf -a sha256
+
+# List available algorithms
+python hasher.py list-algorithms
+```
